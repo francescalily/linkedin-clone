@@ -8,6 +8,7 @@ import ChatIcon from '@material-ui/icons/Chat'
 import NotificationsIcon from '@material-ui/icons/Notifications'
 import LinkedInImage from '../../assets/linkedIn.png'
 import HeaderOption from '../HeaderOption'
+import profileImage from '../../assets/photo.png'
 
 function Header() {
   return (
@@ -27,6 +28,7 @@ function Header() {
         <HeaderOption Icon={BusinessCenterIcon} title="Jobs" />
         <HeaderOption Icon={ChatIcon} title="Messages" />
         <HeaderOption Icon={NotificationsIcon} title="Notifications" />
+        <HeaderOption avatar={profileImage} title="Profile" />
      </div>
     </div>
 
