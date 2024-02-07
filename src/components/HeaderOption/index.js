@@ -3,7 +3,7 @@ import './index.css'
 
 function HeaderOption( {Icon, title} ) {
   return (
-    <div classname="headerOption">
+    <div className="headerOption">
         {Icon && <Icon classname="headerOption__icon"/>}
         <h3 className='headerOption__title'>{title}</h3>
         
