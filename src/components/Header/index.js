@@ -6,9 +6,8 @@ import LinkedInImage from '../../assets/linkedIn.png'
 function Header() {
   return (
     <>
-    <div className='header'>Header Section</div>
-    <h1>This is the header</h1>
-
+    <div className='header'></div>
+    
     <div className='header__left'>
       <img src={LinkedInImage} />
 
