@@ -1,5 +1,7 @@
 import React from 'react'
 import './index.css'
+import SearchIcon from '@material-ui/icons/Search'
+import LinkedInImage from '../../assets/linkedIn.png'
 
 function Header() {
   return (
@@ -8,10 +10,10 @@ function Header() {
     <h1>This is the header</h1>
 
     <div className='header__left'>
-      <img src="" alt="" />
+      <img src={LinkedInImage} />
 
       <div className="header__search">
-        {/* searchIcon */}
+        <SearchIcon />
       <input name="myInput" placeholder='Search...'></input>
       </div>
       
