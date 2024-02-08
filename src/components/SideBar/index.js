@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import { Avatar } from '@material-ui/core'
-import backgroundImage from '../../assets/background.png'
+import backgroundImage from '../../assets/banner.png'
 // import HeaderOption from '../HeaderOption'
 // import profileImage from '../../assets/photo.png'
 
